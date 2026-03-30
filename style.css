@@ -1,0 +1,110 @@
+body{
+    font-family: arial,sans-serif;
+    padding:0px;
+    margin:0px;
+    background-image: linear-gradient(45deg,darkblue,skyblue);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}
+.container{
+    
+    background-color: rgb(249, 247, 251);
+    border-radius: 10px;
+    margin:auto;
+    height:400px;
+    width:500px;
+    box-sizing: border-box;
+    box-shadow: inset;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    
+
+}
+.container h1{
+    text-align: center;
+    margin:30px;
+}
+.input{
+    display:flex;
+    margin:20px auto;
+    
+
+}
+#inputvalue{
+    text-align: center;
+    width:250px;
+    height:40px;
+    border-right:none;
+    
+    border:1px sollid black;
+    box-sizing: border-box;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+
+
+}
+#btn{
+    width:70px;
+    height:40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+
+
+}
+#btn:hover{
+    cursor:pointer;
+    opacity:0.9;
+
+}
+
+.display1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* height:100vh; */
+    margin: 5px auto;
+    
+}
+.dess{
+    display:flex;
+    margin:2px auto;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.des{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-top:0px;
+
+
+}
+.des-value{
+    font-size:22px;
+    margin-bottom:1px;
+    display:flex;
+    justify-content: center;
+    font-weight:bold;
+}
+.display2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:20px;
+
+}
+.temp-class,.spee-class{
+    display:flex;
+    align-items: center;
+
+}
+.temp-value,.spee-value{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+}
