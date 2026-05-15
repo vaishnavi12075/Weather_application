@@ -19,9 +19,9 @@ function inp(e){
         var tempt=data.main.temp
         var windspeed=data.wind.speed
         let tempC=(tempt-273.15).toFixed(2);
-        wind.innerText+=windspeed;
-        temp.innerText+=tempC;
-        desc.innerText+=descr;
+        wind.innerText=windspeed;
+        temp.innerText=tempC +" C";
+        desc.innerText=descr;
 
     });
 }
